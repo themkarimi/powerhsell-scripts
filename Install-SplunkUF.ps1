@@ -1,0 +1,2 @@
+Invoke-WebRequest <path to splunkuf msi> -OutFile .\<splunkuffilename.msi>
+.\<splunkfilename.msi> AGREETOLICENSE=yes SPLUNKUSERNAME=spkgig SPLUNKPASSWORD=<yourpassword> DEPLOYMENT_SERVER="yourserver:8089" LAUNCHSPLUNK=Yes /quiet
