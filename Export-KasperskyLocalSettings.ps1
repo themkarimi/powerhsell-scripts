@@ -33,10 +33,10 @@ function Upload-FTP {
         $filepath
     )
 # Config
-  $Username = "admin"
-  $Password = "LordOfTheRings2020"
+  $Username = "youruser"
+  $Password = "yourpass"
   $LocalFile = "$filepath"
-  $RemoteFile = "ftp://172.31.240.154/$filename.txt"
+  $RemoteFile = "ftp://yourserver/$filename.txt"
  
 # Create FTP Rquest Object
   $FTPRequest = [System.Net.FtpWebRequest]::Create("$RemoteFile")
